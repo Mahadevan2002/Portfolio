@@ -1,0 +1,51 @@
+.about-section {
+  background: #f8f9fa;
+  padding: 60px 0;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #f8b400;
+  display: block;
+  margin: 10px 0;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.profile-img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border: 0px solid #ffd412;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: #f8b400;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #e0a800;
+}
